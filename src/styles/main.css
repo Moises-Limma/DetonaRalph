@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    height: 150px;
+    border: 1px solid black;
+    width: 150px;
+    background-color: #1aeaa5;
+}
+.enemy {
+    background-color: #ff0000;
+    background-image: url(../images/ralph.png);
+    background-size: cover;
+}
+.menu-lifes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second {
+    margin-top: 10px;
+}
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 10px;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.start button {
+    cursor: pointer;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
+.start button:hover {
+    color: #fff;
+    background-color: #008000;
+}
+.showPoints {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.points {
+    color: #fff;
+    font-size: 28px;
+}
+.bestResult {
+    color: rgb(153, 255, 20);
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
